@@ -1,0 +1,40 @@
+#head-navbar {
+    background-color: gray;
+}
+#nav-text {
+    color:black;
+    font-size: 1.5em;
+    padding-left: 50px;
+}
+.navbar-brand {
+    height: 40px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+} 
+#text {
+    background-color: gray;
+    padding: 30px;
+    padding-top: 70px;
+    color:black;
+    text-align: center;
+}
+
+#dropdown {
+    background-color: white;
+    text-align: center;
+}
+
+h3 {
+    margin-top: -50px;
+}
+@media (max-width:767px) {
+    #text {
+       width:500px;
+    }
+}
+@media (max-width:479px) {
+     #text {
+       width:300px;
+    }
+}
